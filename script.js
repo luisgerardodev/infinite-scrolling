@@ -35,7 +35,6 @@ const getPhotos = async () => {
 // Check if all requested images loaded
 const imageLoaded = () => {
   imagesLoaded++;
-  console.log(imagesLoaded);
   if (imagesLoaded === totalImages) {
     ready = true;
     loader.hidden = true;
